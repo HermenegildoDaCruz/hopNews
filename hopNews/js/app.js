@@ -3,7 +3,6 @@ const fetchNews = async (apiKey) => {
     const response = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`,{})
 
     if (response.status === 200){
-        console.log('Data')
         return await response.json()
     } else{
         throw new Error('Unable to fetch news')
