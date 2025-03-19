@@ -1,6 +1,3 @@
-
-
-
 const apiKey = 'c0c24bea206f4159b70b4150f3098204'
 const fetchNews = async (apiKey) => {
     const response = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`,{})
