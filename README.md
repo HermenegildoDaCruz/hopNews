@@ -1,4 +1,4 @@
-# hopNews (HTML, CSS and JAVASCRIPT)
+# hopNews (HTML, CSS, JAVASCRIPT and API)
 A blog about technology news
 
 
